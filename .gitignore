@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# C extensions
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE and editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Project specific: Data, cache and large artifacts
+data/
+cache/
+submissions/
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.h5
+
+# Logs
+*.log
+# CatBoost training logs
+catboost_info/
